@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escolher Mood</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<header class="top-header">
+  <h1>Escolhe o teu Mood</h1><br>
+  <p class="subtitle">uma forma rápida de partilhar como te sentes 🌸</p><br>
+  <p>Seleciona a emoção que melhor descreve o teu dia:</p>
+</header>
+
+<main class="center-container">
+
+  <!-- BOX IGUAL AO LOGIN -->
+  <section class="login-box">
+
+    <form id="moodForm" class="mood-selection">
+
+      <label class="mood-btn">
+        <input type="radio" name="mood" value="😃 Feliz" required>
+        <span>😃 Feliz</span>
+      </label>
+
+      <label class="mood-btn">
+        <input type="radio" name="mood" value="😐 Normal" required>
+        <span>😐 Normal</span>
+      </label>
+
+      <label class="mood-btn">
+        <input type="radio" name="mood" value="😢 Triste" required>
+        <span>😢 Triste</span>
+      </label>
+
+      <label class="mood-btn">
+        <input type="radio" name="mood" value="😨 Medo" required>
+        <span>😨 Medo</span>
+      </label>
+
+      <label class="mood-btn">
+        <input type="radio" name="mood" value="😡 Zangado" required>
+        <span>😡 Zangado</span>
+      </label>
+
+      <button id="saveMoodBtn" type="submit" onclick="window.location.href='finalmood.html'">Guardar</button><br>
+      <button id="viewMoodsBtn" type="button" onclick="window.location.href='finalmood.html'">Ver moods</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+   <p>© 2026 Girlhood Spectrum</p>
+</footer>
+
+</body>
+</html>
